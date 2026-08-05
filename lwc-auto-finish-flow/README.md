@@ -10,11 +10,15 @@ A Lightning Web Component that automatically finishes or navigates to the next s
 - If the current screen is the last step -> fires FINISH
 - If there is a next step -> fires NEXT
 
+## Prerequisites
+- Salesforce CLI installed - [Download here](https://developer.salesforce.com/tools/salesforcecli)
+- Authorized org connection: `sf org login web --alias <your-org-alias> --instance-url https://test.salesforce.com`
+
 ## Properties
 | Property | Type | Default | Description |
 |---|---|---|---|
-| message | String | איש קשר נוצר בהצלחה | The message displayed to the user |
-| delaySeconds | Integer | 2 | Seconds to wait before auto-navigating |
+| `message` | String | Contact created successfully ✅ | The message displayed to the user |
+| `delaySeconds` | Integer | 2 | Seconds to wait before auto-navigating |
 
 ## Usage
 1. Add the component to a Flow Screen
