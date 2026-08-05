@@ -11,7 +11,7 @@ A Lightning Web Component that automatically finishes or navigates to the next s
 - If there is a next step -> fires NEXT
 
 ## Prerequisites
-- Salesforce CLI installed - [Download here](https://developer.salesforce.com/tools/salesforcecli)
+- Salesforce CLI installed
 - Authorized org connection: `sf org login web --alias <your-org-alias> --instance-url https://test.salesforce.com`
 
 ## Properties
